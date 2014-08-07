@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<af:pageTemplateDef xmlns:af="http://xmlns.oracle.com/adf/faces/rich" var="attrs" definition="private"
+                    xmlns:afc="http://xmlns.oracle.com/adf/faces/rich/component" xmlns:f="http://java.sun.com/jsf/core">
+    <af:xmlContent>
+        <afc:component>
+            <afc:description/>
+            <afc:display-name>jobsdashboard</afc:display-name>
+            <afc:facet>
+                <afc:facet-name>
+                    eclipse
+                </afc:facet-name>
+            </afc:facet>
+            <afc:facet>
+                <afc:facet-name>
+                    jdeveloper
+                </afc:facet-name>
+            </afc:facet>
+            <afc:facet>
+                <afc:facet-name>
+                    visualstudio
+                </afc:facet-name>
+            </afc:facet>
+            <afc:facet>
+                <afc:facet-name>
+                    xcode
+                </afc:facet-name>
+            </afc:facet>
+            <afc:facet>
+                <afc:facet-name>
+                    java
+                </afc:facet-name>
+            </afc:facet>
+            <afc:facet>
+                <afc:facet-name>
+                    dotnet
+                </afc:facet-name>
+            </afc:facet>
+            <afc:facet>
+                <afc:facet-name>
+                    glassfish
+                </afc:facet-name>
+            </afc:facet>
+            <afc:facet>
+                <afc:facet-name>
+                    jboss
+                </afc:facet-name>
+            </afc:facet>
+            <afc:facet>
+                <afc:facet-name>
+                    tomcat
+                </afc:facet-name>
+            </afc:facet>
+            <afc:facet>
+                <afc:facet-name>
+                    weblogic
+                </afc:facet-name>
+            </afc:facet>
+            <afc:facet>
+                <afc:facet-name>
+                    websphere
+                </afc:facet-name>
+            </afc:facet>
+            <afc:attribute>
+                <afc:attribute-name>columns</afc:attribute-name>
+                <afc:attribute-class>java.lang.String</afc:attribute-class>
+                <afc:default-value>4</afc:default-value>
+            </afc:attribute>
+        </afc:component>
+    </af:xmlContent>
+    <af:menuBar id="pt_mb1">
+        <af:commandMenuItem text="linkedin" id="pt_cmi1" action="linkedin"
+                            selected="#{sessionScope.currentTab=='linkedin'}" type="radio" immediate="true">
+            <af:setActionListener from="#{'linkedin'}" to="#{sessionScope.currentTab}"/>
+        </af:commandMenuItem>
+        <af:commandMenuItem text="indeed" id="pt_cmi3" action="indeed" selected="#{sessionScope.currentTab=='indeed'}"
+                            type="radio" immediate="true">
+            <af:setActionListener from="#{'indeed'}" to="#{sessionScope.currentTab}"/>
+        </af:commandMenuItem>
+        <af:commandMenuItem text="dice" id="pt_cmi7" action="dice" selected="#{sessionScope.currentTab=='dice'}"
+                            type="radio" immediate="true">
+            <af:setActionListener from="#{'dice'}" to="#{sessionScope.currentTab}"/>
+        </af:commandMenuItem>
+        <af:commandMenuItem text="careerbuilder" id="pt_cmi4" action="careerbuilder"
+                            selected="#{sessionScope.currentTab=='careerbuilder'}" type="radio" immediate="true">
+            <af:setActionListener from="#{'careerbuilder'}" to="#{sessionScope.currentTab}"/>
+        </af:commandMenuItem>
+        <af:commandMenuItem text="monster" id="pt_cmi5" action="monster"
+                            selected="#{sessionScope.currentTab=='monster'}" type="radio" immediate="true">
+            <af:setActionListener from="#{'monster'}" to="#{sessionScope.currentTab}"/>
+        </af:commandMenuItem>
+        <af:commandMenuItem text="glassdoor" id="pt_cmi6" action="glassdoor"
+                            selected="#{sessionScope.currentTab=='glassdoor'}" type="radio" immediate="true">
+            <af:setActionListener from="#{'glassdoor'}" to="#{sessionScope.currentTab}"/>
+        </af:commandMenuItem>
+        <af:commandMenuItem text="odesk" id="pt_cmi2" action="odesk" selected="#{sessionScope.currentTab=='odesk'}"
+                            type="radio" immediate="true">
+            <af:setActionListener from="#{'odesk'}" to="#{sessionScope.currentTab}"/>
+        </af:commandMenuItem>
+    </af:menuBar>
+    <af:panelAccordion discloseMany="true" id="pt_pa1"
+                       partialTriggers="pt_cmi1 pt_cmi3 pt_cmi7 pt_cmi4 pt_cmi5 pt_cmi6 pt_cmi2">
+        <af:showDetailItem id="pane1" text="IDEs"
+                           partialTriggers="pt_cmi1 pt_cmi3 pt_cmi7 pt_cmi4 pt_cmi5 pt_cmi6 pt_cmi2">
+            <af:panelDashboard id="pt_pd1" columns="#{attrs.columns}" rowHeight="300px">
+                <af:panelBox text="Eclipse" id="pt_pb1">
+                    <f:facet name="toolbar"/>
+                    <af:facetRef facetName="eclipse"/>
+                </af:panelBox>
+                <af:panelBox text="JDeveloper" id="pt_pb2">
+                    <f:facet name="toolbar"/>
+                    <af:facetRef facetName="jdeveloper"/>
+                </af:panelBox>
+                <af:panelBox text="Visual Studio" id="pt_pb3">
+                    <f:facet name="toolbar"/>
+                    <af:facetRef facetName="visualstudio"/>
+                </af:panelBox>
+                <af:panelBox text="Xcode" id="pt_pb4">
+                    <f:facet name="toolbar"/>
+                    <af:facetRef facetName="xcode"/>
+                </af:panelBox>
+            </af:panelDashboard>
+        </af:showDetailItem>
+        <af:showDetailItem text="Frameworks/Language" id="pt_sdi1"
+                           partialTriggers="pt_cmi1 pt_cmi3 pt_cmi7 pt_cmi4 pt_cmi5 pt_cmi6 pt_cmi2">
+            <af:panelDashboard id="pt_pd2" rowHeight="300px" columns="#{attrs.columns}">
+                <af:panelBox text="Java" id="pt_pb5">
+                    <f:facet name="toolbar"/>
+                    <af:facetRef facetName="java"/>
+                </af:panelBox>
+                <af:panelBox text=".net" id="pt_pb6">
+                    <f:facet name="toolbar"/>
+                    <af:facetRef facetName="dotnet"/>
+                </af:panelBox>
+            </af:panelDashboard>
+        </af:showDetailItem>
+        <af:showDetailItem text="Web Server/JavaEE Container" id="pt_sdi2"
+                           partialTriggers="pt_cmi1 pt_cmi3 pt_cmi7 pt_cmi4 pt_cmi5 pt_cmi6 pt_cmi2">
+            <af:panelDashboard id="pt_pd3" rowHeight="300px" columns="#{attrs.columns}">
+                <af:panelBox text="Glassfish" id="pt_pb7">
+                    <f:facet name="toolbar"/>
+                    <af:facetRef facetName="glassfish"/>
+                </af:panelBox>
+                <af:panelBox text="JBoss" id="pt_pb8">
+                    <f:facet name="toolbar"/>
+                    <af:facetRef facetName="jboss"/>
+                </af:panelBox>
+                <af:panelBox text="Tomcat" id="pt_pb9">
+                    <f:facet name="toolbar"/>
+                    <af:facetRef facetName="tomcat"/>
+                </af:panelBox>
+                <af:panelBox text="Weblogic" id="pt_pb10">
+                    <f:facet name="toolbar"/>
+                    <af:facetRef facetName="weblogic"/>
+                </af:panelBox>
+                <af:panelBox text="Websphere" id="pt_pb11">
+                    <f:facet name="toolbar"/>
+                    <af:facetRef facetName="websphere"/>
+                </af:panelBox>
+            </af:panelDashboard>
+        </af:showDetailItem>
+    </af:panelAccordion>
+</af:pageTemplateDef>

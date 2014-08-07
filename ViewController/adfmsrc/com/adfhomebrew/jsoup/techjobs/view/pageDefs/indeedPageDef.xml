@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.1.3.10.8" id="indeedPageDef"
+                Package="com.adfhomebrew.jsoup.techjobs.view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="IndeedEclipse1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="IndeedEclipse1Iterator"/>
+    <iterator Binds="IndeedJDeveloper1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="IndeedJDeveloper1Iterator"/>
+    <iterator Binds="IndeedVisualStudio1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="IndeedVisualStudio1Iterator"/>
+    <iterator Binds="IndeedXcode1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="IndeedXcode1Iterator"/>
+    <iterator Binds="IndeedJava1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="IndeedJava1Iterator"/>
+    <iterator Binds="IndeedDotNet1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="IndeedDotNet1Iterator"/>
+    <iterator Binds="IndeedGlassfish1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="IndeedGlassfish1Iterator"/>
+    <iterator Binds="IndeedJboss1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="IndeedJboss1Iterator"/>
+    <iterator Binds="IndeedTomcat1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="IndeedTomcat1Iterator"/>
+    <iterator Binds="IndeedWeblogic1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="IndeedWeblogic1Iterator"/>
+    <iterator Binds="IndeedWebsphere1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="IndeedWebsphere1Iterator"/>
+  </executables>
+  <bindings>
+    <tree IterBinding="IndeedEclipse1Iterator" id="IndeedEclipse1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.indeed.IndeedEclipse" Name="IndeedEclipse1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="IndeedJDeveloper1Iterator" id="IndeedJDeveloper1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.indeed.IndeedJDeveloper"
+                      Name="IndeedJDeveloper1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="IndeedVisualStudio1Iterator" id="IndeedVisualStudio1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.indeed.IndeedVisualStudio"
+                      Name="IndeedVisualStudio1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="IndeedXcode1Iterator" id="IndeedXcode1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.indeed.IndeedXcode" Name="IndeedXcode1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="IndeedJava1Iterator" id="IndeedJava1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.indeed.IndeedJava" Name="IndeedJava1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="IndeedDotNet1Iterator" id="IndeedDotNet1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.indeed.IndeedDotNet" Name="IndeedDotNet1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="IndeedGlassfish1Iterator" id="IndeedGlassfish1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.indeed.IndeedGlassfish"
+                      Name="IndeedGlassfish1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="IndeedJboss1Iterator" id="IndeedJboss1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.indeed.IndeedJboss" Name="IndeedJboss1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="IndeedTomcat1Iterator" id="IndeedTomcat1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.indeed.IndeedTomcat" Name="IndeedTomcat1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="IndeedWeblogic1Iterator" id="IndeedWeblogic1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.indeed.IndeedWeblogic" Name="IndeedWeblogic1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="IndeedWebsphere1Iterator" id="IndeedWebsphere1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.indeed.IndeedWebsphere"
+                      Name="IndeedWebsphere1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+  </bindings>
+</pageDefinition>

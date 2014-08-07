@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich"
+        xmlns:dvt="http://xmlns.oracle.com/dss/adf/faces">
+    <af:document title="glassdoor.jsf" id="d1">
+        <af:messages id="m1"/>
+        <af:form id="f1">
+            <af:pageTemplate viewId="/ui-template/jobsdashboard.jsf" id="pt1">
+                <f:facet name="eclipse">
+                    <dvt:lineChart id="lineChart1" var="row" value="#{bindings.GlassdoorEclipse1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di1" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.GlassdoorEclipse1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="jdeveloper">
+                    <dvt:lineChart id="lineChart2" var="row" value="#{bindings.GlassdooorJDeveloper1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di2" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.GlassdooorJDeveloper1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="visualstudio">
+                    <dvt:lineChart id="lineChart3" var="row" value="#{bindings.GlassdoorVisualStudio1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di3" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.GlassdoorVisualStudio1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="xcode">
+                    <dvt:lineChart id="lineChart4" var="row" value="#{bindings.GlassdoorXcode1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di4" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.GlassdoorXcode1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="java">
+                    <dvt:lineChart id="lineChart5" var="row" value="#{bindings.GlassdoorJava1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di5" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.GlassdoorJava1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="dotnet">
+                    <dvt:lineChart id="lineChart6" var="row" value="#{bindings.GlassdoorDotNet1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di6" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.GlassdoorDotNet1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="glassfish">
+                    <dvt:lineChart id="lineChart7" var="row" value="#{bindings.GlassdoorGlassfish1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di7" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.GlassdoorGlassfish1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="jboss">
+                    <dvt:lineChart id="lineChart8" var="row" value="#{bindings.GlassdoorJboss1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di8" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.GlassdoorJboss1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="tomcat">
+                    <dvt:lineChart id="lineChart9" var="row" value="#{bindings.GlassdoorTomcat1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di9" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.GlassdoorTomcat1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="weblogic">
+                    <dvt:lineChart id="lineChart10" var="row" value="#{bindings.GlassdoorWeblogic1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di10" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.GlassdoorWeblogic1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="websphere">
+                    <dvt:lineChart id="lineChart11" var="row" value="#{bindings.GlassdoorWebsphere1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di11" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.GlassdoorWebsphere1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+            </af:pageTemplate>
+        </af:form>
+    </af:document>
+</f:view>

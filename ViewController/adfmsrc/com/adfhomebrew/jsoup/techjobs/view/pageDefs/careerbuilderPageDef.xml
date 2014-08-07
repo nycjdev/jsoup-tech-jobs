@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.1.3.10.8" id="careerbuilderPageDef"
+                Package="com.adfhomebrew.jsoup.techjobs.view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="CareerBuilderEclipse1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="CareerBuilderEclipse1Iterator"/>
+    <iterator Binds="CareeerBuilderJDeveloper1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="CareeerBuilderJDeveloper1Iterator"/>
+    <iterator Binds="CareerBuilderVisualStudio1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="CareerBuilderVisualStudio1Iterator"/>
+    <iterator Binds="CareerBuilderXcode1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="CareerBuilderXcode1Iterator"/>
+    <iterator Binds="CareerBuilderJava1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="CareerBuilderJava1Iterator"/>
+    <iterator Binds="CareerBuilderDotNet1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="CareerBuilderDotNet1Iterator"/>
+    <iterator Binds="CareerBuilderGlassfish1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="CareerBuilderGlassfish1Iterator"/>
+    <iterator Binds="CareerBuilderJboss1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="CareerBuilderJboss1Iterator"/>
+    <iterator Binds="CareerBuilderTomcat1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="CareerBuilderTomcat1Iterator"/>
+    <iterator Binds="CareerBuilderWeblogic1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="CareerBuilderWeblogic1Iterator"/>
+    <iterator Binds="CareerBuilderWebsphere1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="CareerBuilderWebsphere1Iterator"/>
+  </executables>
+  <bindings>
+    <tree IterBinding="CareerBuilderEclipse1Iterator" id="CareerBuilderEclipse1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.careerbuilder.CareerBuilderEclipse"
+                      Name="CareerBuilderEclipse1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="CareeerBuilderJDeveloper1Iterator" id="CareeerBuilderJDeveloper1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.careerbuilder.CareeerBuilderJDeveloper"
+                      Name="CareeerBuilderJDeveloper1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="CareerBuilderVisualStudio1Iterator" id="CareerBuilderVisualStudio1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.careerbuilder.CareerBuilderVisualStudio"
+                      Name="CareerBuilderVisualStudio1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="CareerBuilderXcode1Iterator" id="CareerBuilderXcode1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.careerbuilder.CareerBuilderXcode"
+                      Name="CareerBuilderXcode1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="CareerBuilderJava1Iterator" id="CareerBuilderJava1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.careerbuilder.CareerBuilderJava"
+                      Name="CareerBuilderJava1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="CareerBuilderDotNet1Iterator" id="CareerBuilderDotNet1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.careerbuilder.CareerBuilderDotNet"
+                      Name="CareerBuilderDotNet1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="CareerBuilderGlassfish1Iterator" id="CareerBuilderGlassfish1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.careerbuilder.CareerBuilderGlassfish"
+                      Name="CareerBuilderGlassfish1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="CareerBuilderJboss1Iterator" id="CareerBuilderJboss1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.careerbuilder.CareerBuilderJboss"
+                      Name="CareerBuilderJboss1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="CareerBuilderTomcat1Iterator" id="CareerBuilderTomcat1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.careerbuilder.CareerBuilderTomcat"
+                      Name="CareerBuilderTomcat1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="CareerBuilderWeblogic1Iterator" id="CareerBuilderWeblogic1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.careerbuilder.CareerBuilderWeblogic"
+                      Name="CareerBuilderWeblogic1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="CareerBuilderWebsphere1Iterator" id="CareerBuilderWebsphere1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.careerbuilder.CareerBuilderWebsphere"
+                      Name="CareerBuilderWebsphere1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+  </bindings>
+</pageDefinition>

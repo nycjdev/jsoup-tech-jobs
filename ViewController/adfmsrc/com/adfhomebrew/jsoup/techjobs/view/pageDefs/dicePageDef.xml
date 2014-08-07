@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.1.3.10.8" id="dicePageDef"
+                Package="com.adfhomebrew.jsoup.techjobs.view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="DiceJDeveloper1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="DiceJDeveloper1Iterator"/>
+    <iterator Binds="DiceVisualStudio1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="DiceVisualStudio1Iterator"/>
+    <iterator Binds="DiceXcode1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="DiceXcode1Iterator"/>
+    <iterator Binds="DiceJava1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl" id="DiceJava1Iterator"/>
+    <iterator Binds="DiceDotNet1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="DiceDotNet1Iterator"/>
+    <iterator Binds="DiceGlassfish1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="DiceGlassfish1Iterator"/>
+    <iterator Binds="DiceJboss1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="DiceJboss1Iterator"/>
+    <iterator Binds="DiceTomcat1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="DiceTomcat1Iterator"/>
+    <iterator Binds="DiceWeblogic1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="DiceWeblogic1Iterator"/>
+    <iterator Binds="DiceWebsphere1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="DiceWebsphere1Iterator"/>
+    <iterator Binds="DiceEclipse1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="DiceEclipse1Iterator"/>
+  </executables>
+  <bindings>
+    <tree IterBinding="DiceJDeveloper1Iterator" id="DiceJDeveloper1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.dice.DiceJDeveloper" Name="DiceJDeveloper1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="DiceVisualStudio1Iterator" id="DiceVisualStudio1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.dice.DiceVisualStudio"
+                      Name="DiceVisualStudio1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="DiceXcode1Iterator" id="DiceXcode1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.dice.DiceXcode" Name="DiceXcode1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="DiceJava1Iterator" id="DiceJava1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.dice.DiceJava" Name="DiceJava1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="DiceDotNet1Iterator" id="DiceDotNet1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.dice.DiceDotNet" Name="DiceDotNet1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="DiceGlassfish1Iterator" id="DiceGlassfish1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.dice.DiceGlassfish" Name="DiceGlassfish1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="DiceJboss1Iterator" id="DiceJboss1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.dice.DiceJboss" Name="DiceJboss1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="DiceTomcat1Iterator" id="DiceTomcat1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.dice.DiceTomcat" Name="DiceTomcat1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="DiceWeblogic1Iterator" id="DiceWeblogic1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.dice.DiceWeblogic" Name="DiceWeblogic1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="DiceWebsphere1Iterator" id="DiceWebsphere1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.dice.DiceWebsphere" Name="DiceWebsphere1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="DiceEclipse1Iterator" id="DiceEclipse1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.dice.DiceEclipse" Name="DiceEclipse1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+  </bindings>
+</pageDefinition>

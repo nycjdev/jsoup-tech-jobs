@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.1.3.10.8" id="odeskPageDef"
+                Package="com.adfhomebrew.jsoup.techjobs.view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="ODeskEclipse1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="ODeskEclipse1Iterator"/>
+    <iterator Binds="ODeskDotNet1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="ODeskDotNet1Iterator"/>
+    <iterator Binds="ODeskGlassfish1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="ODeskGlassfish1Iterator"/>
+    <iterator Binds="ODeskJava1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="ODeskJava1Iterator"/>
+    <iterator Binds="ODeskJboss1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="ODeskJboss1Iterator"/>
+    <iterator Binds="ODeskJDeveloper1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="ODeskJDeveloper1Iterator"/>
+    <iterator Binds="ODeskTomcat1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="ODeskTomcat1Iterator"/>
+    <iterator Binds="ODeskVisualStudio1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="ODeskVisualStudio1Iterator"/>
+    <iterator Binds="ODeskWeblogic1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="ODeskWeblogic1Iterator"/>
+    <iterator Binds="ODeskWebsphere1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="ODeskWebsphere1Iterator"/>
+    <iterator Binds="ODeskXcode1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="ODeskXcode1Iterator"/>
+  </executables>
+  <bindings>
+    <tree IterBinding="ODeskEclipse1Iterator" id="ODeskEclipse1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.odesk.ODeskEclipse" Name="ODeskEclipse1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="ODeskDotNet1Iterator" id="ODeskDotNet1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.odesk.ODeskDotNet" Name="ODeskDotNet1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="ODeskGlassfish1Iterator" id="ODeskGlassfish1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.odesk.ODeskGlassfish" Name="ODeskGlassfish1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="ODeskJava1Iterator" id="ODeskJava1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.odesk.ODeskJava" Name="ODeskJava1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="ODeskJboss1Iterator" id="ODeskJboss1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.odesk.ODeskJboss" Name="ODeskJboss1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="ODeskJDeveloper1Iterator" id="ODeskJDeveloper1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.odesk.ODeskJDeveloper" Name="ODeskJDeveloper1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="ODeskTomcat1Iterator" id="ODeskTomcat1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.odesk.ODeskTomcat" Name="ODeskTomcat1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="ODeskVisualStudio1Iterator" id="ODeskVisualStudio1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.odesk.ODeskVisualStudio"
+                      Name="ODeskVisualStudio1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="ODeskWeblogic1Iterator" id="ODeskWeblogic1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.odesk.ODeskWeblogic" Name="ODeskWeblogic1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="ODeskWebsphere1Iterator" id="ODeskWebsphere1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.odesk.ODeskWebsphere" Name="ODeskWebsphere1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="ODeskXcode1Iterator" id="ODeskXcode1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.odesk.ODeskXcode" Name="ODeskXcode1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+  </bindings>
+</pageDefinition>

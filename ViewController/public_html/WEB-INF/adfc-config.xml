@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<adfc-config xmlns="http://xmlns.oracle.com/adf/controller" version="1.2">
+  <view id="careerbuilder">
+    <page>/careerbuilder.jsf</page>
+  </view>
+  <view id="linkedin">
+    <page>/linkedin.jsf</page>
+  </view>
+  <view id="odesk">
+    <page>/odesk.jsf</page>
+  </view>
+  <view id="monster">
+    <page>/monster.jsf</page>
+  </view>
+  <view id="indeed">
+    <page>/indeed.jsf</page>
+  </view>
+  <view id="dice">
+    <page>/dice.jsf</page>
+  </view>
+  <view id="glassdoor">
+    <page>/glassdoor.jsf</page>
+  </view>
+</adfc-config>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.1.3.10.8" id="monsterPageDef"
+                Package="com.adfhomebrew.jsoup.techjobs.view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="MonsterEclipse1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="MonsterEclipse1Iterator"/>
+    <iterator Binds="MonsterJDeveloper1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="MonsterJDeveloper1Iterator"/>
+    <iterator Binds="MonsterXcode1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="MonsterXcode1Iterator"/>
+    <iterator Binds="MonsterGlassfish1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="MonsterGlassfish1Iterator"/>
+    <iterator Binds="MonsterJboss1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="MonsterJboss1Iterator"/>
+    <iterator Binds="MonsterTomcat1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="MonsterTomcat1Iterator"/>
+    <iterator Binds="MonsterWeblogic1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="MonsterWeblogic1Iterator"/>
+    <iterator Binds="MonsterWebsphere1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="MonsterWebsphere1Iterator"/>
+  </executables>
+  <bindings>
+    <tree IterBinding="MonsterEclipse1Iterator" id="MonsterEclipse1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.monster.MonsterEclipse" Name="MonsterEclipse1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="MonsterJDeveloper1Iterator" id="MonsterJDeveloper1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.monster.MonsterJDeveloper"
+                      Name="MonsterJDeveloper1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="MonsterXcode1Iterator" id="MonsterXcode1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.monster.MonsterXcode" Name="MonsterXcode1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="MonsterGlassfish1Iterator" id="MonsterGlassfish1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.monster.MonsterGlassfish"
+                      Name="MonsterGlassfish1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="MonsterJboss1Iterator" id="MonsterJboss1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.monster.MonsterJboss" Name="MonsterJboss1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="MonsterTomcat1Iterator" id="MonsterTomcat1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.monster.MonsterTomcat" Name="MonsterTomcat1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="MonsterWeblogic1Iterator" id="MonsterWeblogic1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.monster.MonsterWeblogic"
+                      Name="MonsterWeblogic1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="MonsterWebsphere1Iterator" id="MonsterWebsphere1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.monster.MonsterWebsphere"
+                      Name="MonsterWebsphere1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+  </bindings>
+</pageDefinition>

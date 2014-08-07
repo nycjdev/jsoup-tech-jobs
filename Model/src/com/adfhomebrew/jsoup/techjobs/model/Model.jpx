@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<!DOCTYPE JboProject SYSTEM "jbo_03_01.dtd">
+<!---->
+<JboProject
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="Model"
+  Version="12.1.3.10.8"
+  SeparateXMLFiles="true"
+  PackageName="com.adfhomebrew.jsoup.techjobs.model">
+  <DesignTime>
+    <Attr Name="_useAnsiJoinSyntax" Value="true"/>
+    <Attr Name="_jprName" Value="../../../../../../Model.jpr"/>
+    <Attr Name="_jbo.SQLBuilder" Value="SQL92"/>
+    <Attr Name="_jbo.TypeMapEntries" Value="Java"/>
+    <Attr Name="_NamedConnection" Value="adfhomebrew_local"/>
+    <Attr Name="_appModuleNames0" Value="com.adfhomebrew.jsoup.techjobs.model.JSoupTechJobsAppModule"/>
+  </DesignTime>
+  <Containee
+    Name="model"
+    PackageName="com.adfhomebrew.jsoup.techjobs.model"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_AM" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="careerbuilder"
+    PackageName="com.adfhomebrew.jsoup.techjobs.model.view.careerbuilder"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="dice"
+    PackageName="com.adfhomebrew.jsoup.techjobs.model.view.dice"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="glassdoor"
+    PackageName="com.adfhomebrew.jsoup.techjobs.model.view.glassdoor"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="indeed"
+    PackageName="com.adfhomebrew.jsoup.techjobs.model.view.indeed"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="linkedin"
+    PackageName="com.adfhomebrew.jsoup.techjobs.model.view.linkedin"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="monster"
+    PackageName="com.adfhomebrew.jsoup.techjobs.model.view.monster"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="odesk"
+    PackageName="com.adfhomebrew.jsoup.techjobs.model.view.odesk"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
+    </DesignTime>
+  </Containee>
+</JboProject>

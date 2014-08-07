@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich"
+        xmlns:dvt="http://xmlns.oracle.com/dss/adf/faces">
+    <af:document title="odesk.jsf" id="d1">
+        <af:messages id="m1"/>
+        <af:form id="f1">
+            <af:pageTemplate viewId="/ui-template/jobsdashboard.jsf" id="pt1">
+                <f:facet name="eclipse">
+                    <dvt:lineChart id="lineChart1" var="row" value="#{bindings.ODeskEclipse1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di1" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.ODeskEclipse1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="jdeveloper">
+                    <dvt:lineChart id="lineChart6" var="row" value="#{bindings.ODeskJDeveloper1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di6" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.ODeskJDeveloper1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="visualstudio">
+                    <dvt:lineChart id="lineChart8" var="row" value="#{bindings.ODeskVisualStudio1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di8" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.ODeskVisualStudio1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="xcode">
+                    <dvt:lineChart id="lineChart11" var="row" value="#{bindings.ODeskXcode1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di11" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.ODeskXcode1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="java">
+                    <dvt:lineChart id="lineChart4" var="row" value="#{bindings.ODeskJava1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di4" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.ODeskJava1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="dotnet">
+                    <dvt:lineChart id="lineChart2" var="row" value="#{bindings.ODeskDotNet1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di2" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.ODeskDotNet1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="glassfish">
+                    <dvt:lineChart id="lineChart3" var="row" value="#{bindings.ODeskGlassfish1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di3" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.ODeskGlassfish1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="jboss">
+                    <dvt:lineChart id="lineChart5" var="row" value="#{bindings.ODeskJboss1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di5" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.ODeskJboss1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="tomcat">
+                    <dvt:lineChart id="lineChart7" var="row" value="#{bindings.ODeskTomcat1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di7" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.ODeskTomcat1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="weblogic">
+                    <dvt:lineChart id="lineChart9" var="row" value="#{bindings.ODeskWeblogic1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di9" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.ODeskWeblogic1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="websphere">
+                    <dvt:lineChart id="lineChart10" var="row" value="#{bindings.ODeskWebsphere1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di10" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.ODeskWebsphere1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+            </af:pageTemplate>
+        </af:form>
+    </af:document>
+</f:view>

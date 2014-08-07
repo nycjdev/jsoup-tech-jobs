@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich"
+        xmlns:dvt="http://xmlns.oracle.com/dss/adf/faces">
+    <af:document title="linkedin.jsf" id="d1">
+        <af:messages id="m1"/>
+        <af:form id="f1">
+            <af:pageTemplate viewId="/ui-template/jobsdashboard.jsf" id="pt1">
+                <f:facet name="eclipse">
+                    <dvt:lineChart id="lineChart1" var="row" value="#{bindings.LinkedinEclipse1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di1" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.LinkedinEclipse1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="jdeveloper">
+                    <dvt:lineChart id="lineChart2" var="row" value="#{bindings.LinkedinJDeveloper1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di2" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.LinkedinJDeveloper1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="visualstudio">
+                    <dvt:lineChart id="lineChart3" var="row" value="#{bindings.LinkedinVisualStudio1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di3" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.LinkedinVisualStudio1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="xcode">
+                    <dvt:lineChart id="lineChart4" var="row" value="#{bindings.LinkedinXcode1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di4" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.LinkedinXcode1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="java">
+                    <dvt:lineChart id="lineChart5" var="row" value="#{bindings.LinkedinJava1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di5" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.LinkedinJava1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="dotnet">
+                    <dvt:lineChart id="lineChart6" var="row" value="#{bindings.LinkedinDotNet1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di6" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.LinkedinDotNet1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="glassfish">
+                    <dvt:lineChart id="lineChart7" var="row" value="#{bindings.LinkedinGlassfish1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di7" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.LinkedinGlassfish1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="jboss">
+                    <dvt:lineChart id="lineChart8" var="row" value="#{bindings.LinkedinJboss1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di8" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.LinkedinJboss1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="tomcat">
+                    <dvt:lineChart id="lineChart9" var="row" value="#{bindings.LinkedinTomcat1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di9" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.LinkedinTomcat1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="weblogic">
+                    <dvt:lineChart id="lineChart10" var="row" value="#{bindings.LinkedinWeblogic1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di10" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.LinkedinWeblogic1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="websphere">
+                    <dvt:lineChart id="lineChart11" var="row" value="#{bindings.LinkedinWebsphere1.collectionModel}">
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di11" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.LinkedinWebsphere1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+            </af:pageTemplate>
+        </af:form>
+    </af:document>
+</f:view>

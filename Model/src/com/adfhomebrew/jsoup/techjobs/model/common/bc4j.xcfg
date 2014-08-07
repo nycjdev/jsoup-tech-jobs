@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BC4JConfig version="11.1" xmlns="http://xmlns.oracle.com/bc4j/configuration">
+   <AppModuleConfigBag ApplicationName="com.adfhomebrew.jsoup.techjobs.model.JSoupTechJobsAppModule">
+      <AppModuleConfig DeployPlatform="LOCAL" name="JSoupTechJobsAppModuleLocal" ApplicationName="com.adfhomebrew.jsoup.techjobs.model.JSoupTechJobsAppModule" jbo.project="com.adfhomebrew.jsoup.techjobs.model.Model">
+         <Database jbo.sql92.JdbcDriverClass="com.mysql.jdbc.Driver" jbo.TypeMapEntries="Java" jbo.SQLBuilder="SQL92"/>
+         <Security AppModuleJndiName="com.adfhomebrew.jsoup.techjobs.model.JSoupTechJobsAppModule"/>
+         <Custom ns0:ns0="http://xmlns.oracle.com/bc4j/configuration" ns0:JDBCDataSource="jdbc/adfhomebrewmysql" xmlns:ns0="http://xmlns.oracle.com/bc4j/configuration"/>
+      </AppModuleConfig>
+   </AppModuleConfigBag>
+</BC4JConfig>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.1.3.10.8" id="glassdoorPageDef"
+                Package="com.adfhomebrew.jsoup.techjobs.view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="GlassdoorEclipse1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="GlassdoorEclipse1Iterator"/>
+    <iterator Binds="GlassdooorJDeveloper1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="GlassdooorJDeveloper1Iterator"/>
+    <iterator Binds="GlassdoorVisualStudio1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="GlassdoorVisualStudio1Iterator"/>
+    <iterator Binds="GlassdoorXcode1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="GlassdoorXcode1Iterator"/>
+    <iterator Binds="GlassdoorJava1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="GlassdoorJava1Iterator"/>
+    <iterator Binds="GlassdoorDotNet1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="GlassdoorDotNet1Iterator"/>
+    <iterator Binds="GlassdoorGlassfish1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="GlassdoorGlassfish1Iterator"/>
+    <iterator Binds="GlassdoorJboss1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="GlassdoorJboss1Iterator"/>
+    <iterator Binds="GlassdoorTomcat1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="GlassdoorTomcat1Iterator"/>
+    <iterator Binds="GlassdoorWeblogic1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="GlassdoorWeblogic1Iterator"/>
+    <iterator Binds="GlassdoorWebsphere1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="GlassdoorWebsphere1Iterator"/>
+  </executables>
+  <bindings>
+    <tree IterBinding="GlassdoorEclipse1Iterator" id="GlassdoorEclipse1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.glassdoor.GlassdoorEclipse"
+                      Name="GlassdoorEclipse1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="GlassdooorJDeveloper1Iterator" id="GlassdooorJDeveloper1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.glassdoor.GlassdooorJDeveloper"
+                      Name="GlassdooorJDeveloper1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="GlassdoorVisualStudio1Iterator" id="GlassdoorVisualStudio1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.glassdoor.GlassdoorVisualStudio"
+                      Name="GlassdoorVisualStudio1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="GlassdoorXcode1Iterator" id="GlassdoorXcode1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.glassdoor.GlassdoorXcode"
+                      Name="GlassdoorXcode1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="GlassdoorJava1Iterator" id="GlassdoorJava1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.glassdoor.GlassdoorJava" Name="GlassdoorJava1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="GlassdoorDotNet1Iterator" id="GlassdoorDotNet1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.glassdoor.GlassdoorDotNet"
+                      Name="GlassdoorDotNet1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="GlassdoorGlassfish1Iterator" id="GlassdoorGlassfish1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.glassdoor.GlassdoorGlassfish"
+                      Name="GlassdoorGlassfish1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="GlassdoorJboss1Iterator" id="GlassdoorJboss1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.glassdoor.GlassdoorJboss"
+                      Name="GlassdoorJboss1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="GlassdoorTomcat1Iterator" id="GlassdoorTomcat1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.glassdoor.GlassdoorTomcat"
+                      Name="GlassdoorTomcat1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="GlassdoorWeblogic1Iterator" id="GlassdoorWeblogic1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.glassdoor.GlassdoorWeblogic"
+                      Name="GlassdoorWeblogic1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="GlassdoorWebsphere1Iterator" id="GlassdoorWebsphere1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.glassdoor.GlassdoorWebsphere"
+                      Name="GlassdoorWebsphere1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+  </bindings>
+</pageDefinition>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html>
+<f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich"
+        xmlns:dvt="http://xmlns.oracle.com/dss/adf/faces">
+    <af:document title="careerbuilder.jsf" id="d1">
+        <af:messages id="m1"/>
+        <af:form id="f1">
+            <af:pageTemplate viewId="/ui-template/jobsdashboard.jsf" id="pt1">
+                <f:facet name="eclipse">
+                    <dvt:lineChart id="lineChart1" var="row" value="#{bindings.CareerBuilderEclipse1.collectionModel}">
+                        <dvt:chartLegend rendered="false" id="cl1"/>
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di1" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.CareerBuilderEclipse1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="jdeveloper">
+                    <dvt:lineChart id="lineChart2" var="row"
+                                   value="#{bindings.CareeerBuilderJDeveloper1.collectionModel}">
+                        <dvt:chartLegend rendered="false" id="cl2"/>
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di2" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.CareeerBuilderJDeveloper1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="visualstudio">
+                    <dvt:lineChart id="lineChart3" var="row"
+                                   value="#{bindings.CareerBuilderVisualStudio1.collectionModel}">
+                        <dvt:chartLegend rendered="false" id="cl3"/>
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di3" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.CareerBuilderVisualStudio1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="xcode">
+                    <dvt:lineChart id="lineChart4" var="row" value="#{bindings.CareerBuilderXcode1.collectionModel}">
+                        <dvt:chartLegend rendered="false" id="cl4"/>
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di4" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.CareerBuilderXcode1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="java">
+                    <dvt:lineChart id="lineChart5" var="row" value="#{bindings.CareerBuilderJava1.collectionModel}">
+                        <dvt:chartLegend rendered="false" id="cl5"/>
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di5" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.CareerBuilderJava1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="dotnet">
+                    <dvt:lineChart id="lineChart6" var="row" value="#{bindings.CareerBuilderDotNet1.collectionModel}">
+                        <dvt:chartLegend rendered="false" id="cl6"/>
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di6" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.CareerBuilderDotNet1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="glassfish">
+                    <dvt:lineChart id="lineChart7" var="row"
+                                   value="#{bindings.CareerBuilderGlassfish1.collectionModel}">
+                        <dvt:chartLegend rendered="false" id="cl7"/>
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di7" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.CareerBuilderGlassfish1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="jboss">
+                    <dvt:lineChart id="lineChart8" var="row" value="#{bindings.CareerBuilderJboss1.collectionModel}">
+                        <dvt:chartLegend rendered="false" id="cl8"/>
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di8" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.CareerBuilderJboss1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="tomcat">
+                    <dvt:lineChart id="lineChart9" var="row" value="#{bindings.CareerBuilderTomcat1.collectionModel}">
+                        <dvt:chartLegend rendered="false" id="cl9"/>
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di9" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.CareerBuilderTomcat1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="weblogic">
+                    <dvt:lineChart id="lineChart10" var="row"
+                                   value="#{bindings.CareerBuilderWeblogic1.collectionModel}">
+                        <dvt:chartLegend rendered="false" id="cl10"/>
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di10" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.CareerBuilderWeblogic1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+                <f:facet name="websphere">
+                    <dvt:lineChart id="lineChart11" var="row"
+                                   value="#{bindings.CareerBuilderWebsphere1.collectionModel}">
+                        <dvt:chartLegend rendered="false" id="cl11"/>
+                        <f:facet name="dataStamp">
+                            <dvt:chartDataItem id="di11" value="#{row.Jobs}" group="#{row.Scrapedate}"
+                                               series="#{bindings.CareerBuilderWebsphere1.hints.Jobs.label}"/>
+                        </f:facet>
+                    </dvt:lineChart>
+                </f:facet>
+            </af:pageTemplate>
+        </af:form>
+    </af:document>
+</f:view>

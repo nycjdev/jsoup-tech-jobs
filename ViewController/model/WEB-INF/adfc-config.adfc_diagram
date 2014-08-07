@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SDM>
+   <OverallProperties
+      id="OverallProperties1"/>
+   <View
+      id="View2">
+      <property
+         name="activityId">careerbuilder</property>
+      <property
+         name="page">/careerbuilder.jsf</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>careerbuilder&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">363.5459</property>
+      <property
+         name="x">113.0</property>
+   </View>
+   <View
+      id="View3">
+      <property
+         name="activityId">linkedin</property>
+      <property
+         name="page">/linkedin.jsf</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>linkedin&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">367.89648</property>
+      <property
+         name="x">215.0</property>
+   </View>
+   <View
+      id="View4">
+      <property
+         name="activityId">odesk</property>
+      <property
+         name="page">/odesk.jsf</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>odesk&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">363.49414</property>
+      <property
+         name="x">302.0</property>
+   </View>
+   <View
+      id="View5">
+      <property
+         name="activityId">monster</property>
+      <property
+         name="page">/monster.jsf</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>monster&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">371.5459</property>
+      <property
+         name="x">396.0</property>
+   </View>
+   <View
+      id="View6">
+      <property
+         name="activityId">indeed</property>
+      <property
+         name="page">/indeed.jsf</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>indeed&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">51.896484</property>
+      <property
+         name="x">123.0</property>
+   </View>
+   <View
+      id="View7">
+      <property
+         name="activityId">dice</property>
+      <property
+         name="page">/dice.jsf</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>dice&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">148.59766</property>
+      <property
+         name="x">125.0</property>
+   </View>
+   <View
+      id="View8">
+      <property
+         name="activityId">glassdoor</property>
+      <property
+         name="page">/glassdoor.jsf</property>
+      <property
+         name="description">&lt;html>&lt;p>&lt;b>glassdoor&lt;/b>&lt;/p>&lt;p>Activity Type:  View&lt;/p></property>
+      <property
+         name="exceptionHandler">false</property>
+      <property
+         name="y">259.59766</property>
+      <property
+         name="x">121.0</property>
+   </View>
+</SDM>

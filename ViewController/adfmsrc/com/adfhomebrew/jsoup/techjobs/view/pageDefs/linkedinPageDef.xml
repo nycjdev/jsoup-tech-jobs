@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.1.3.10.8" id="linkedinPageDef"
+                Package="com.adfhomebrew.jsoup.techjobs.view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <iterator Binds="LinkedinEclipse1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="LinkedinEclipse1Iterator"/>
+    <iterator Binds="LinkedinJDeveloper1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="LinkedinJDeveloper1Iterator"/>
+    <iterator Binds="LinkedinVisualStudio1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="LinkedinVisualStudio1Iterator"/>
+    <iterator Binds="LinkedinXcode1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="LinkedinXcode1Iterator"/>
+    <iterator Binds="LinkedinJava1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="LinkedinJava1Iterator"/>
+    <iterator Binds="LinkedinDotNet1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="LinkedinDotNet1Iterator"/>
+    <iterator Binds="LinkedinGlassfish1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="LinkedinGlassfish1Iterator"/>
+    <iterator Binds="LinkedinJboss1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="LinkedinJboss1Iterator"/>
+    <iterator Binds="LinkedinTomcat1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="LinkedinTomcat1Iterator"/>
+    <iterator Binds="LinkedinWeblogic1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="LinkedinWeblogic1Iterator"/>
+    <iterator Binds="LinkedinWebsphere1" RangeSize="-1" DataControl="JSoupTechJobsAppModuleDataControl"
+              id="LinkedinWebsphere1Iterator"/>
+  </executables>
+  <bindings>
+    <tree IterBinding="LinkedinEclipse1Iterator" id="LinkedinEclipse1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.linkedin.LinkedinEclipse"
+                      Name="LinkedinEclipse1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="LinkedinJDeveloper1Iterator" id="LinkedinJDeveloper1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.linkedin.LinkedinJDeveloper"
+                      Name="LinkedinJDeveloper1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="LinkedinVisualStudio1Iterator" id="LinkedinVisualStudio1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.linkedin.LinkedinVisualStudio"
+                      Name="LinkedinVisualStudio1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="LinkedinXcode1Iterator" id="LinkedinXcode1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.linkedin.LinkedinXcode" Name="LinkedinXcode1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="LinkedinJava1Iterator" id="LinkedinJava1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.linkedin.LinkedinJava" Name="LinkedinJava1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="LinkedinDotNet1Iterator" id="LinkedinDotNet1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.linkedin.LinkedinDotNet"
+                      Name="LinkedinDotNet1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="LinkedinGlassfish1Iterator" id="LinkedinGlassfish1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.linkedin.LinkedinGlassfish"
+                      Name="LinkedinGlassfish1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="LinkedinJboss1Iterator" id="LinkedinJboss1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.linkedin.LinkedinJboss" Name="LinkedinJboss1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="LinkedinTomcat1Iterator" id="LinkedinTomcat1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.linkedin.LinkedinTomcat"
+                      Name="LinkedinTomcat1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="LinkedinWeblogic1Iterator" id="LinkedinWeblogic1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.linkedin.LinkedinWeblogic"
+                      Name="LinkedinWeblogic1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+    <tree IterBinding="LinkedinWebsphere1Iterator" id="LinkedinWebsphere1" ChangeEventPolicy="ppr">
+      <nodeDefinition DefName="com.adfhomebrew.jsoup.techjobs.model.view.linkedin.LinkedinWebsphere"
+                      Name="LinkedinWebsphere1">
+        <AttrNames>
+          <Item Value="Jobs"/>
+          <Item Value="Scrapedate"/>
+        </AttrNames>
+      </nodeDefinition>
+    </tree>
+  </bindings>
+</pageDefinition>
